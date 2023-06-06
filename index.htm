@@ -1,0 +1,45 @@
+<!-- Fahad Mohammed  <== HTML Comment
+     Feb 17, 2021
+     Project 2b -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Project 2a</title> <!-- This is the title tag-->
+<meta charset="UTF-8"><!-- it gives the info about the special char set-->
+<link rel="stylesheet" href="project 2b.css"> <!--This is connecting the CSS file to the main-->
+<script src="script.js"></script><!-- connects the js to html-->
+
+</head>
+<body>
+    <h1>Upload Cities File</h1> <!--Heading for uploading the file-->
+
+    <label for="file"><!--lable to upload the file-->
+        Upload JSON Input File:
+    </label><br>
+    <input type="file" id="file" accept=".json"><br><br><!--allows the user to upload the file and it only accepts json-->
+    
+    
+    <label for ="cname">Enter Country Name: </label><!-- This is the lable for the country-->
+
+    <input type ="text" id="cname"><br><br><!--This is for inputting country name in the text area-->
+
+    <label for ="subcountry">Enter Sub-Country Name: </label><!-- This is the lable for the subcountry-->
+
+    <input type ="text" id="subcountry"><br><br><!--This is for inputting subcountry name in the text area-->
+
+    <button id="btn1">Get City Information</button><br><br><!--This is the button that gives the name of the cities when clicked-->
+
+    <textarea id="output"></textarea><!--Shows the result of the inputted data-->
+    <br><br>
+    
+    <label for ="nname">Enter City Name: </label> <!-- Here You enter city name-->
+
+    <input type ="input" id="nname"><br><br> <!--Here we enter city name -->
+
+    <button id="btn2">Get City Information</button><br><br><!--button for getting city information-->
+
+    <textarea id="output2"></textarea><!-- Shows all the countries that city is located in -->
+    <br><br>
+
+</body>
+</html>
